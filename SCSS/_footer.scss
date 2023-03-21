@@ -1,0 +1,17 @@
+.footer{
+    background-color: whitesmoke;
+    text-align: center;
+    grid-area: footer;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    h5{
+        color: rgb(43, 13, 13);
+        text-align: center;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 20%;
+                }
+    }

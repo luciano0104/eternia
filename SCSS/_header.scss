@@ -1,0 +1,42 @@
+.header{
+    grid-area: header;
+    align-items: center;
+    h1{
+        color: black;
+        font-style: italic;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    nav{
+        border-radius: 5px;
+        background: linear-gradient(to top, grey, white); 
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 150px;
+            height: 80px;
+            border-radius: 10%;
+            padding: 10px;
+            transition: all 0.5s;}
+        ul{
+            list-style: none;
+            font-style: italic;
+            display: flex;
+            padding: 10px;
+            li{
+                margin:10px;
+              padding: 10px;
+              text-decoration: none;
+              transition: all 1s;
+              a{
+                color: white;
+                font-weight: bold;
+               &:hover{
+                color: black;
+                background-color: white;} 
+            }
+        }
+     }
+}
+}

@@ -1,0 +1,58 @@
+.main{
+    grid-area: main;
+    display: inline;
+    justify-content: center;
+    .indumentaria{
+        display: flex;
+        align-items: center;
+    }
+    .mates{
+        display: flex;
+        align-items: center;
+    }
+    .tazas{
+        display: flex;
+        align-items: center;
+    }
+    .otros{
+        display: flex;
+        align-items: center;
+    }
+    .btn{
+        background-color: rgb(52, 50, 50);
+        color: beige;
+    }
+    .local{
+        img{
+        width: 1200px;
+        height: 600px;}
+     }
+     img{
+        width: 375px;
+        height: 375px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+            }
+    h2{
+        background-color: rgb(64, 62, 62) ;
+        text-align: center;
+        color: white;           
+        }
+    }
+.titel{
+        grid-area: titel;
+    }
+.mapa{
+        grid-area: mapa;
+        justify-content: center;
+        img{
+            width: 600px;
+            height: 500px;
+        }
+    }
+.direccion{
+        grid-area: direccion;
+        text-align: center;
+        justify-items: center;
+    }
