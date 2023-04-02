@@ -2,10 +2,14 @@
     padding: 0;
     box-sizing: border-box;
     }
+
     .container{
         display: grid;
+        width: 100%;
         height: auto;
+        margin: auto;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(19, 18, 18);
         grid-template-columns: 1fr 1fr;
         grid-template-rows: .2fr auto auto auto .2fr;
         grid-template-areas: 
@@ -14,6 +18,7 @@
         "titel titel"
         "mapa direccion"
         "footer footer";}
+
         @media screen and (max-width:600px){
             .container{
             display: grid;
@@ -29,4 +34,7 @@
                 flex-direction: column;
                 align-items: center;
             }  
+             main{
+                width: 100%;
+            }
         }
